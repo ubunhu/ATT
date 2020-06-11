@@ -1,0 +1,1416 @@
+{
+  "d691e233b5d9d39c6dbf21a8952a0674" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 18
+    },
+    "items" : [ {
+      "uid" : "7b587a30bdb824a4",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/7b587a30bdb824a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500576431,
+        "stop" : 1576500576528,
+        "duration" : 97
+      }
+    }, {
+      "uid" : "8386aa4434aee4b8",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/8386aa4434aee4b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500343951,
+        "stop" : 1576500344074,
+        "duration" : 123
+      }
+    }, {
+      "uid" : "5be10762a7f5bec4",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/5be10762a7f5bec4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576221971297,
+        "stop" : 1576221971688,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "29f3a528aca9073a",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/63/allure/#testresult/29f3a528aca9073a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219840852,
+        "stop" : 1576219841964,
+        "duration" : 1112
+      }
+    }, {
+      "uid" : "9a9dece735d208d5",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/62/allure/#testresult/9a9dece735d208d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219554566,
+        "stop" : 1576219554861,
+        "duration" : 295
+      }
+    } ]
+  },
+  "416babbdab4602ea1fe7f010739b5df7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 7
+    },
+    "items" : [ {
+      "uid" : "202782d800149ca1",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/36/allure/#testresult/202782d800149ca1",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576053153789,
+        "stop" : 1576053154311,
+        "duration" : 522
+      }
+    }, {
+      "uid" : "360f1e16116cd842",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/35/allure/#testresult/360f1e16116cd842",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576053012454,
+        "stop" : 1576053013282,
+        "duration" : 828
+      }
+    }, {
+      "uid" : "521fa6bbbebcc82f",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/521fa6bbbebcc82f",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576052179311,
+        "stop" : 1576052179488,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "4ade0fabe690929d",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/4ade0fabe690929d",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576050709022,
+        "stop" : 1576050710368,
+        "duration" : 1346
+      }
+    }, {
+      "uid" : "dd50fe5a6bde5ded",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/dd50fe5a6bde5ded",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576050709022,
+        "stop" : 1576050710368,
+        "duration" : 1346
+      }
+    } ]
+  },
+  "7e69ac53a4c61c040e41aac72e0b30a2" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "9d258a2a4c363a28",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/36/allure/#testresult/9d258a2a4c363a28",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576053154670,
+        "stop" : 1576053154882,
+        "duration" : 212
+      }
+    }, {
+      "uid" : "938dbca1034ae70d",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/938dbca1034ae70d",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576051840458,
+        "stop" : 1576051841425,
+        "duration" : 967
+      }
+    }, {
+      "uid" : "887520d3f6fcaec",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/887520d3f6fcaec",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1576051840458,
+        "stop" : 1576051841425,
+        "duration" : 967
+      }
+    }, {
+      "uid" : "4f76236b5e913def",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/4f76236b5e913def",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050499980,
+        "stop" : 1576050500166,
+        "duration" : 186
+      }
+    }, {
+      "uid" : "e3d46d94dd0a2657",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/e3d46d94dd0a2657",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050499980,
+        "stop" : 1576050500166,
+        "duration" : 186
+      }
+    } ]
+  },
+  "48c1e14b12184920a05d936c60ac57d7" : {
+    "statistic" : {
+      "failed" : 11,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 20
+    },
+    "items" : [ {
+      "uid" : "97c2c121dc1ad930",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/97c2c121dc1ad930",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576500572470,
+        "stop" : 1576500573104,
+        "duration" : 634
+      }
+    }, {
+      "uid" : "bb521ac5d360cdc8",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/bb521ac5d360cdc8",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576500344082,
+        "stop" : 1576500344189,
+        "duration" : 107
+      }
+    }, {
+      "uid" : "171d392d7a647562",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/171d392d7a647562",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576221965770,
+        "stop" : 1576221965939,
+        "duration" : 169
+      }
+    }, {
+      "uid" : "4593de831e2099d6",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/62/allure/#testresult/4593de831e2099d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576219555478,
+        "stop" : 1576219555750,
+        "duration" : 272
+      }
+    }, {
+      "uid" : "573f3dffae35e0eb",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/60/allure/#testresult/573f3dffae35e0eb",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576219055228,
+        "stop" : 1576219055454,
+        "duration" : 226
+      }
+    } ]
+  },
+  "4d20426a4d8ed959c5d8344893c6e20e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 20
+    },
+    "items" : [ {
+      "uid" : "e0143a37577661ba",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/e0143a37577661ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500576033,
+        "stop" : 1576500576422,
+        "duration" : 389
+      }
+    }, {
+      "uid" : "f4152f0ec4236cf1",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/72/allure/#testresult/f4152f0ec4236cf1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500506957,
+        "stop" : 1576500507610,
+        "duration" : 653
+      }
+    }, {
+      "uid" : "c441b9d0426bac42",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/c441b9d0426bac42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500346557,
+        "stop" : 1576500346819,
+        "duration" : 262
+      }
+    }, {
+      "uid" : "d0c5afefa9a2593",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/d0c5afefa9a2593",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576221970463,
+        "stop" : 1576221971286,
+        "duration" : 823
+      }
+    }, {
+      "uid" : "fa9a6a41ff44ece9",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/60/allure/#testresult/fa9a6a41ff44ece9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219053678,
+        "stop" : 1576219053889,
+        "duration" : 211
+      }
+    } ]
+  },
+  "634e13f2d326c2ec76c3380df6318c76" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "be6af21c5f05b13",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/be6af21c5f05b13",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498289,
+        "stop" : 1576050498600,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "ad6d9c370c02390f",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/ad6d9c370c02390f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498289,
+        "stop" : 1576050498600,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "4f77e4eaedeb0d93",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/4f77e4eaedeb0d93",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498289,
+        "stop" : 1576050498600,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "206635eb1d73190e",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/206635eb1d73190e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498289,
+        "stop" : 1576050498600,
+        "duration" : 311
+      }
+    }, {
+      "uid" : "ef17853a44d40f04",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/30/allure/#testresult/ef17853a44d40f04",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575862388989,
+        "stop" : 1575862389147,
+        "duration" : 158
+      }
+    } ]
+  },
+  "94bc8850b8dbf7f602108f4b1c7766d8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 5,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 21
+    },
+    "items" : [ {
+      "uid" : "18e12b95f87345bb",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/18e12b95f87345bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500570665,
+        "stop" : 1576500570842,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "1168b6ce97739597",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/1168b6ce97739597",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500346831,
+        "stop" : 1576500346964,
+        "duration" : 133
+      }
+    }, {
+      "uid" : "1857bcecbe7482b4",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/1857bcecbe7482b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576221965388,
+        "stop" : 1576221965763,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "d4b3a36974501c28",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/63/allure/#testresult/d4b3a36974501c28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219843225,
+        "stop" : 1576219844296,
+        "duration" : 1071
+      }
+    }, {
+      "uid" : "764496a78d4ffc79",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/62/allure/#testresult/764496a78d4ffc79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219554875,
+        "stop" : 1576219555089,
+        "duration" : 214
+      }
+    } ]
+  },
+  "3c25329981da4b4e275bb7b004a802fa" : {
+    "statistic" : {
+      "failed" : 9,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 18
+    },
+    "items" : [ {
+      "uid" : "3bc56a747084d40f",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/3bc56a747084d40f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576500575513,
+        "stop" : 1576500575833,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "6c6d1d3fa4a6f995",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/6c6d1d3fa4a6f995",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576500345324,
+        "stop" : 1576500345660,
+        "duration" : 336
+      }
+    }, {
+      "uid" : "6411356f12672a9e",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/6411356f12672a9e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576221965964,
+        "stop" : 1576221966791,
+        "duration" : 827
+      }
+    }, {
+      "uid" : "cc050908fda832e5",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/58/allure/#testresult/cc050908fda832e5",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576208845844,
+        "stop" : 1576208846298,
+        "duration" : 454
+      }
+    }, {
+      "uid" : "83e5b9e456485e37",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/55/allure/#testresult/83e5b9e456485e37",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576206718057,
+        "stop" : 1576206718346,
+        "duration" : 289
+      }
+    } ]
+  },
+  "dbe8efb1f7b317c61bf4549bbe929ae8" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "b8a23269cf5b0245",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/b8a23269cf5b0245",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495939,
+        "stop" : 1576050497346,
+        "duration" : 1407
+      }
+    }, {
+      "uid" : "e3f3ac3851733580",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/e3f3ac3851733580",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495939,
+        "stop" : 1576050497346,
+        "duration" : 1407
+      }
+    }, {
+      "uid" : "e05bbecbedb2aaaf",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/e05bbecbedb2aaaf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495939,
+        "stop" : 1576050497346,
+        "duration" : 1407
+      }
+    }, {
+      "uid" : "28c996833283c23e",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/28c996833283c23e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495939,
+        "stop" : 1576050497346,
+        "duration" : 1407
+      }
+    }, {
+      "uid" : "2c2730fa30ef967f",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/30/allure/#testresult/2c2730fa30ef967f",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575862389777,
+        "stop" : 1575862389991,
+        "duration" : 214
+      }
+    } ]
+  },
+  "723f1a82aaf972e918391bc114a9a9b6" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "f9e85972585f7e0",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/f9e85972585f7e0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050494937,
+        "stop" : 1576050495338,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "1a2411e84b334ec9",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/1a2411e84b334ec9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050494937,
+        "stop" : 1576050495338,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "35708ebd26e9dc01",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/35708ebd26e9dc01",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050494937,
+        "stop" : 1576050495338,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "dac21d699f40568f",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/dac21d699f40568f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050494937,
+        "stop" : 1576050495338,
+        "duration" : 401
+      }
+    }, {
+      "uid" : "2ef9ee09e619e7ea",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/30/allure/#testresult/2ef9ee09e619e7ea",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575862390186,
+        "stop" : 1575862390649,
+        "duration" : 463
+      }
+    } ]
+  },
+  "d085121edd916c4144ea66419b66a678" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "4e89775bb968a5a1",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/4e89775bb968a5a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500574373,
+        "stop" : 1576500575123,
+        "duration" : 750
+      }
+    }, {
+      "uid" : "86ceb99958102452",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/72/allure/#testresult/86ceb99958102452",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500507936,
+        "stop" : 1576500508583,
+        "duration" : 647
+      }
+    }, {
+      "uid" : "5a3cf04da94ec237",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/5a3cf04da94ec237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500344686,
+        "stop" : 1576500345231,
+        "duration" : 545
+      }
+    }, {
+      "uid" : "12a96a2aea980c07",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/12a96a2aea980c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576221967381,
+        "stop" : 1576221968511,
+        "duration" : 1130
+      }
+    }, {
+      "uid" : "50f0df8c48fcf4a",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/62/allure/#testresult/50f0df8c48fcf4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219556357,
+        "stop" : 1576219556947,
+        "duration" : 590
+      }
+    } ]
+  },
+  "3540ce7e75434960b4721d5e68bed3c6" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "392cf12b0f595497",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/392cf12b0f595497",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495731,
+        "stop" : 1576050495849,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "fdefe994422541c9",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/fdefe994422541c9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495731,
+        "stop" : 1576050495849,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "1efeeaac96901ca4",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/1efeeaac96901ca4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495731,
+        "stop" : 1576050495849,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "d2b1599316673d70",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/d2b1599316673d70",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050495731,
+        "stop" : 1576050495849,
+        "duration" : 118
+      }
+    }, {
+      "uid" : "645f6cc6f9d636fd",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/30/allure/#testresult/645f6cc6f9d636fd",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575862390791,
+        "stop" : 1575862390920,
+        "duration" : 129
+      }
+    } ]
+  },
+  "dac1eaaedf3c4296107c0e590df4eb91" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 21,
+      "unknown" : 0,
+      "total" : 21
+    },
+    "items" : [ {
+      "uid" : "6bcc0743c801f1b6",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/29/allure/#testresult/6bcc0743c801f1b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575429679269,
+        "stop" : 1575429679378,
+        "duration" : 109
+      }
+    }, {
+      "uid" : "66875b0ebfc74573",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/28/allure/#testresult/66875b0ebfc74573",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575356497833,
+        "stop" : 1575356498350,
+        "duration" : 517
+      }
+    }, {
+      "uid" : "c666e5f73b7a6cd",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/27/allure/#testresult/c666e5f73b7a6cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575356497833,
+        "stop" : 1575356498350,
+        "duration" : 517
+      }
+    }, {
+      "uid" : "6eea6fe7d97df248",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/26/allure/#testresult/6eea6fe7d97df248",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575355849059,
+        "stop" : 1575355849134,
+        "duration" : 75
+      }
+    }, {
+      "uid" : "e023fb2a0fd73df8",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/25/allure/#testresult/e023fb2a0fd73df8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575355784345,
+        "stop" : 1575355784557,
+        "duration" : 212
+      }
+    } ]
+  },
+  "33e330716088899c7ddb5f435dfc968b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 19
+    },
+    "items" : [ {
+      "uid" : "9b393b9562acab9b",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/9b393b9562acab9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500575138,
+        "stop" : 1576500575499,
+        "duration" : 361
+      }
+    }, {
+      "uid" : "31d21335970527a0",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/31d21335970527a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500344223,
+        "stop" : 1576500344461,
+        "duration" : 238
+      }
+    }, {
+      "uid" : "577130574cb12337",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/577130574cb12337",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576221968517,
+        "stop" : 1576221969603,
+        "duration" : 1086
+      }
+    }, {
+      "uid" : "b00e12cc42131184",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/62/allure/#testresult/b00e12cc42131184",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219555098,
+        "stop" : 1576219555466,
+        "duration" : 368
+      }
+    }, {
+      "uid" : "d826d782396089f0",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/58/allure/#testresult/d826d782396089f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576208843365,
+        "stop" : 1576208844437,
+        "duration" : 1072
+      }
+    } ]
+  },
+  "75b346a834b2a661273f97f5b5f3bd68" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 19
+    },
+    "items" : [ {
+      "uid" : "f0cbbe40b67aa0e0",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/f0cbbe40b67aa0e0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576500575864,
+        "stop" : 1576500575991,
+        "duration" : 127
+      }
+    }, {
+      "uid" : "9115fcff19ba1d8b",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/9115fcff19ba1d8b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576500344471,
+        "stop" : 1576500344597,
+        "duration" : 126
+      }
+    }, {
+      "uid" : "36629845444d709c",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/36629845444d709c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576221966839,
+        "stop" : 1576221967363,
+        "duration" : 524
+      }
+    }, {
+      "uid" : "46b6090a2bf99d93",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/60/allure/#testresult/46b6090a2bf99d93",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576219055731,
+        "stop" : 1576219055923,
+        "duration" : 192
+      }
+    }, {
+      "uid" : "3fc337c2b245304d",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/58/allure/#testresult/3fc337c2b245304d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+      "time" : {
+        "start" : 1576208844446,
+        "stop" : 1576208844950,
+        "duration" : 504
+      }
+    } ]
+  },
+  "7ce0fba813e390d8ab8cae55b3aa4bc2" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "fc94760a91d602bd",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/fc94760a91d602bd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050499034,
+        "stop" : 1576050499649,
+        "duration" : 615
+      }
+    }, {
+      "uid" : "3da004cafc99393b",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/3da004cafc99393b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050499034,
+        "stop" : 1576050499649,
+        "duration" : 615
+      }
+    }, {
+      "uid" : "ab23be79712cb15",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/ab23be79712cb15",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050499034,
+        "stop" : 1576050499649,
+        "duration" : 615
+      }
+    }, {
+      "uid" : "1ea539a06c52a868",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/1ea539a06c52a868",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050499034,
+        "stop" : 1576050499649,
+        "duration" : 615
+      }
+    }, {
+      "uid" : "1ef6a6ec3475e114",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/30/allure/#testresult/1ef6a6ec3475e114",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575862390671,
+        "stop" : 1575862390771,
+        "duration" : 100
+      }
+    } ]
+  },
+  "d00487ffcee8fc3384da965e5b5953d2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 9,
+      "skipped" : 0,
+      "passed" : 15,
+      "unknown" : 0,
+      "total" : 24
+    },
+    "items" : [ {
+      "uid" : "8606e1c12fe0332c",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/29/allure/#testresult/8606e1c12fe0332c",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575429677834,
+        "stop" : 1575429678108,
+        "duration" : 274
+      }
+    }, {
+      "uid" : "486f16adae5ebe9f",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/28/allure/#testresult/486f16adae5ebe9f",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575356496776,
+        "stop" : 1575356497236,
+        "duration" : 460
+      }
+    }, {
+      "uid" : "cf9c558c9c475c9b",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/27/allure/#testresult/cf9c558c9c475c9b",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575356496776,
+        "stop" : 1575356497236,
+        "duration" : 460
+      }
+    }, {
+      "uid" : "874e0c2bbddb9299",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/26/allure/#testresult/874e0c2bbddb9299",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575355849141,
+        "stop" : 1575355849303,
+        "duration" : 162
+      }
+    }, {
+      "uid" : "89e60740e1dbf676",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/25/allure/#testresult/89e60740e1dbf676",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575355784935,
+        "stop" : 1575355785286,
+        "duration" : 351
+      }
+    } ]
+  },
+  "ad7463679f3b177346d6775f506523d6" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "9d17ca8add9be88a",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/9d17ca8add9be88a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050497518,
+        "stop" : 1576050497984,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "e59683db2a521d17",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/e59683db2a521d17",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050497518,
+        "stop" : 1576050497984,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "dd2ecd6e7730a991",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/dd2ecd6e7730a991",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050497518,
+        "stop" : 1576050497984,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "3820cec477c201ea",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/3820cec477c201ea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050497518,
+        "stop" : 1576050497984,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "e8fe467d16cf3257",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/30/allure/#testresult/e8fe467d16cf3257",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575862389254,
+        "stop" : 1575862389708,
+        "duration" : 454
+      }
+    } ]
+  },
+  "75cae3bd624024b00a30b748ac505f62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "98dee2b4f56b6091",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/36/allure/#testresult/98dee2b4f56b6091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576053153223,
+        "stop" : 1576053153780,
+        "duration" : 557
+      }
+    }, {
+      "uid" : "1c99051ef92dc86",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/1c99051ef92dc86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576052179836,
+        "stop" : 1576052180120,
+        "duration" : 284
+      }
+    }, {
+      "uid" : "b7eef573f1cf38b9",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/b7eef573f1cf38b9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576050499696,
+        "stop" : 1576050499970,
+        "duration" : 274
+      }
+    }, {
+      "uid" : "3b6415297fbdf728",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/3b6415297fbdf728",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576050499696,
+        "stop" : 1576050499970,
+        "duration" : 274
+      }
+    }, {
+      "uid" : "2d1901258e43c69b",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/2d1901258e43c69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576050499696,
+        "stop" : 1576050499970,
+        "duration" : 274
+      }
+    } ]
+  },
+  "d7873cf8f4b65efbcec5aff5402be7a6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 22
+    },
+    "items" : [ {
+      "uid" : "82c3347cb6b11459",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/29/allure/#testresult/82c3347cb6b11459",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575429678309,
+        "stop" : 1575429679020,
+        "duration" : 711
+      }
+    }, {
+      "uid" : "222b3f8da847922c",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/28/allure/#testresult/222b3f8da847922c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575356498357,
+        "stop" : 1575356499121,
+        "duration" : 764
+      }
+    }, {
+      "uid" : "941819a23d8540a7",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/27/allure/#testresult/941819a23d8540a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575356498357,
+        "stop" : 1575356499121,
+        "duration" : 764
+      }
+    }, {
+      "uid" : "1685806049d32702",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/26/allure/#testresult/1685806049d32702",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575355848839,
+        "stop" : 1575355849054,
+        "duration" : 215
+      }
+    }, {
+      "uid" : "85243555ca841504",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/25/allure/#testresult/85243555ca841504",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575355784563,
+        "stop" : 1575355784920,
+        "duration" : 357
+      }
+    } ]
+  },
+  "8fc53f8329477b7d47242cfd30592a0d" : {
+    "statistic" : {
+      "failed" : 10,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 17
+    },
+    "items" : [ {
+      "uid" : "85e223c2877b8faa",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/85e223c2877b8faa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+      "time" : {
+        "start" : 1576500571071,
+        "stop" : 1576500571573,
+        "duration" : 502
+      }
+    }, {
+      "uid" : "1c94395ae699a22a",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/1c94395ae699a22a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+      "time" : {
+        "start" : 1576500343493,
+        "stop" : 1576500343686,
+        "duration" : 193
+      }
+    }, {
+      "uid" : "2ed0e35ce8ac559d",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/2ed0e35ce8ac559d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+      "time" : {
+        "start" : 1576221963926,
+        "stop" : 1576221965220,
+        "duration" : 1294
+      }
+    }, {
+      "uid" : "46c1b4c4654a423c",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/63/allure/#testresult/46c1b4c4654a423c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+      "time" : {
+        "start" : 1576219841971,
+        "stop" : 1576219842876,
+        "duration" : 905
+      }
+    }, {
+      "uid" : "537d192b8a67e5b2",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/58/allure/#testresult/537d192b8a67e5b2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+      "time" : {
+        "start" : 1576208841278,
+        "stop" : 1576208842177,
+        "duration" : 899
+      }
+    } ]
+  },
+  "c3b2725d9ac2672370cfdda97bc2f651" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 20
+    },
+    "items" : [ {
+      "uid" : "cd9597aa0dc55fc9",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/73/allure/#testresult/cd9597aa0dc55fc9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500573282,
+        "stop" : 1576500574293,
+        "duration" : 1011
+      }
+    }, {
+      "uid" : "9773dfc042684b15",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/72/allure/#testresult/9773dfc042684b15",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500507616,
+        "stop" : 1576500507922,
+        "duration" : 306
+      }
+    }, {
+      "uid" : "1f68dd9551fdf1cd",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/1f68dd9551fdf1cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576500345819,
+        "stop" : 1576500346508,
+        "duration" : 689
+      }
+    }, {
+      "uid" : "209f2c50288e43c8",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/209f2c50288e43c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576221969609,
+        "stop" : 1576221970456,
+        "duration" : 847
+      }
+    }, {
+      "uid" : "6d2a263f0b03fc80",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/60/allure/#testresult/6d2a263f0b03fc80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1576219053899,
+        "stop" : 1576219054319,
+        "duration" : 420
+      }
+    } ]
+  },
+  "255e43eb617e43018c1e6562b6e5fbc7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 21,
+      "unknown" : 0,
+      "total" : 21
+    },
+    "items" : [ {
+      "uid" : "379ad871144366c4",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/29/allure/#testresult/379ad871144366c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575429679024,
+        "stop" : 1575429679265,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "6834cae10d6f8ff0",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/28/allure/#testresult/6834cae10d6f8ff0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575356497455,
+        "stop" : 1575356497771,
+        "duration" : 316
+      }
+    }, {
+      "uid" : "d1b396419835149d",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/27/allure/#testresult/d1b396419835149d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575356497455,
+        "stop" : 1575356497771,
+        "duration" : 316
+      }
+    }, {
+      "uid" : "55b80cc5c01dea6a",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/26/allure/#testresult/55b80cc5c01dea6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575355849451,
+        "stop" : 1575355849533,
+        "duration" : 82
+      }
+    }, {
+      "uid" : "e47837f13bf42edf",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/25/allure/#testresult/e47837f13bf42edf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575355785658,
+        "stop" : 1575355785983,
+        "duration" : 325
+      }
+    } ]
+  },
+  "705cc9a39d59d7057679b6367bcba084" : {
+    "statistic" : {
+      "failed" : 4,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 5
+    },
+    "items" : [ {
+      "uid" : "1823a6e9d8a274c3",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/34/allure/#testresult/1823a6e9d8a274c3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498646,
+        "stop" : 1576050499001,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "5cbb5dd0ff1f5439",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/33/allure/#testresult/5cbb5dd0ff1f5439",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498646,
+        "stop" : 1576050499001,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "8405f280afa95e97",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/32/allure/#testresult/8405f280afa95e97",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498646,
+        "stop" : 1576050499001,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "b6c33af44e7fcaf9",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/31/allure/#testresult/b6c33af44e7fcaf9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError",
+      "time" : {
+        "start" : 1576050498646,
+        "stop" : 1576050499001,
+        "duration" : 355
+      }
+    }, {
+      "uid" : "9a69eb2ace3fffc8",
+      "reportUrl" : "http://localhost:8080/job/ms_api_pytest/30/allure/#testresult/9a69eb2ace3fffc8",
+      "status" : "broken",
+      "statusDetails" : "Exception: http状态码错误！\n 401 != 200",
+      "time" : {
+        "start" : 1575862390031,
+        "stop" : 1575862390160,
+        "duration" : 129
+      }
+    } ]
+  }
+}

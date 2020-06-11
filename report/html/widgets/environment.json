@@ -1,0 +1,16 @@
+[ {
+  "values" : [ "Production" ],
+  "name" : "Stand"
+}, {
+  "values" : [ "ms.shijiebang.com" ],
+  "name" : "ApiUrl"
+}, {
+  "values" : [ "3.6" ],
+  "name" : "python.Version"
+}, {
+  "values" : [ "63.0" ],
+  "name" : "Browser.Version"
+}, {
+  "values" : [ "Chrome" ],
+  "name" : "Browser"
+} ]

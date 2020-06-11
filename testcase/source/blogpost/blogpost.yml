@@ -1,0 +1,36 @@
+test_info:
+  id: test_blogpost_01
+  title: blogpost
+  host: recomm.cnblogs.com
+  address: /api/v2/recomm/blogpost/reco
+premise:
+test_case:
+  test_name: blogpost
+  info: test_blogpost_01
+  http_type: https
+  request_type: POST
+  parameter_type: application/json
+  address: /api/v2/recomm/blogpost/reco
+  headers:
+    :method: POST
+    :authority: recomm.cnblogs.com
+    :scheme: https
+    :path: /api/v2/recomm/blogpost/reco
+    content-length: '71'
+    accept: application/json, text/javascript, */*; q=0.01
+    origin: https://www.cnblogs.com
+    user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+    content-type: application/json; charset=UTF-8
+    referer: https://www.cnblogs.com/
+    accept-encoding: gzip, deflate, br
+    accept-language: zh-CN,zh;q=0.9,en;q=0.8
+  cookies: true
+  timeout: 20
+  parameter: blogpost.json
+  file: false
+  check:
+    check_type: json
+    expected_code: 200
+    expected_request: result_blogpost.json
+  relevance:

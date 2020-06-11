@@ -1,0 +1,155 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "aff.testcase",
+    "children" : [ {
+      "name" : "unreadsize.test_unreadsize",
+      "children" : [ {
+        "name" : "test_unreadsize[参数{'open_id': '0'}]",
+        "uid" : "18e12b95f87345bb",
+        "parentUid" : "fb704a1de9efa4456986ff2c01a5046b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1576500570665,
+          "stop" : 1576500570842,
+          "duration" : 177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'open_id': '0'}" ]
+      } ],
+      "uid" : "unreadsize.test_unreadsize"
+    }, {
+      "name" : "routes.test_routes",
+      "children" : [ {
+        "name" : "test_routes[参数{'open_id': '25J'}]",
+        "uid" : "85e223c2877b8faa",
+        "parentUid" : "d607b2b676fa6696d1ddae6ba965aa0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1576500571071,
+          "stop" : 1576500571573,
+          "duration" : 502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'open_id': '25J'}" ]
+      } ],
+      "uid" : "routes.test_routes"
+    }, {
+      "name" : "assem.test_assem",
+      "children" : [ {
+        "name" : "test_assem[参数{'open_id': '0'}]",
+        "uid" : "97c2c121dc1ad930",
+        "parentUid" : "0d525317288e43f678c6ef0468165674",
+        "status" : "failed",
+        "time" : {
+          "start" : 1576500572470,
+          "stop" : 1576500573104,
+          "duration" : 634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'open_id': '0'}" ]
+      }, {
+        "name" : "test_assem[参数{'page': '1'}]",
+        "uid" : "cd9597aa0dc55fc9",
+        "parentUid" : "0d525317288e43f678c6ef0468165674",
+        "status" : "passed",
+        "time" : {
+          "start" : 1576500573282,
+          "stop" : 1576500574293,
+          "duration" : 1011
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'page': '1'}" ]
+      }, {
+        "name" : "test_assem[参数{'open_id': '0', 'page': '1', 'pagesize': '0'}]",
+        "uid" : "4e89775bb968a5a1",
+        "parentUid" : "0d525317288e43f678c6ef0468165674",
+        "status" : "passed",
+        "time" : {
+          "start" : 1576500574373,
+          "stop" : 1576500575123,
+          "duration" : 750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'open_id': '0', 'page': '1', 'pagesize': '0'}" ]
+      }, {
+        "name" : "test_assem[参数{'open_id': '0', 'page': '1'}]",
+        "uid" : "9b393b9562acab9b",
+        "parentUid" : "0d525317288e43f678c6ef0468165674",
+        "status" : "passed",
+        "time" : {
+          "start" : 1576500575138,
+          "stop" : 1576500575499,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'open_id': '0', 'page': '1'}" ]
+      }, {
+        "name" : "test_assem[参数{'pagesize': '0'}]",
+        "uid" : "3bc56a747084d40f",
+        "parentUid" : "0d525317288e43f678c6ef0468165674",
+        "status" : "failed",
+        "time" : {
+          "start" : 1576500575513,
+          "stop" : 1576500575833,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'pagesize': '0'}" ]
+      }, {
+        "name" : "test_assem[参数{'open_id': '0', 'pagesize': '0'}]",
+        "uid" : "f0cbbe40b67aa0e0",
+        "parentUid" : "0d525317288e43f678c6ef0468165674",
+        "status" : "failed",
+        "time" : {
+          "start" : 1576500575864,
+          "stop" : 1576500575991,
+          "duration" : 127
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'open_id': '0', 'pagesize': '0'}" ]
+      }, {
+        "name" : "test_assem[参数{'page': '1', 'pagesize': '0'}]",
+        "uid" : "e0143a37577661ba",
+        "parentUid" : "0d525317288e43f678c6ef0468165674",
+        "status" : "passed",
+        "time" : {
+          "start" : 1576500576033,
+          "stop" : 1576500576422,
+          "duration" : 389
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'page': '1', 'pagesize': '0'}" ]
+      } ],
+      "uid" : "assem.test_assem"
+    }, {
+      "name" : "sample.test_sample",
+      "children" : [ {
+        "name" : "test_sample[参数{'open_id': '0'}]",
+        "uid" : "7b587a30bdb824a4",
+        "parentUid" : "33ac9be3266084635cd5ef09ad31037a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1576500576431,
+          "stop" : 1576500576528,
+          "duration" : 97
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'open_id': '0'}" ]
+      } ],
+      "uid" : "sample.test_sample"
+    } ],
+    "uid" : "aff.testcase"
+  } ]
+}
