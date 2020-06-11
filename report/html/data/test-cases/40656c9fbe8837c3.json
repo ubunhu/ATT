@@ -1,0 +1,175 @@
+{
+  "uid" : "40656c9fbe8837c3",
+  "name" : "test_assem[参数{'page': '1', 'pagesize': '0'}]",
+  "fullName" : "aff.testcase.assem.test_assem.TestAssem#test_assem",
+  "historyId" : "4d20426a4d8ed959c5d8344893c6e20e",
+  "time" : {
+    "start" : 1576500506957,
+    "stop" : 1576500507610,
+    "duration" : 653
+  },
+  "description" : "\n\t\t测试用例说明\n        :test_case: assem\n\n        ",
+  "descriptionHtml" : "<pre><code>\t测试用例说明\n    :test_case: assem\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1576500506956,
+      "stop" : 1576500506956,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n\t\t测试用例说明\n        :test_case: assem\n\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1576500506961,
+        "stop" : 1576500506963,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b52d61866c33349",
+        "name" : "请求接口：",
+        "source" : "6b52d61866c33349.attach",
+        "type" : "text/plain",
+        "size" : 14
+      }, {
+        "uid" : "98cbbac36e54b6a3",
+        "name" : "请求地址",
+        "source" : "98cbbac36e54b6a3.attach",
+        "type" : "text/plain",
+        "size" : 39
+      }, {
+        "uid" : "27a0881a1662810e",
+        "name" : "请求头",
+        "source" : "27a0881a1662810e.attach",
+        "type" : "text/plain",
+        "size" : 591
+      }, {
+        "uid" : "e42dcda230037de1",
+        "name" : "请求参数",
+        "source" : "e42dcda230037de1.attach",
+        "type" : "text/plain",
+        "size" : 30
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "JSON格式校验",
+      "time" : {
+        "start" : 1576500507607,
+        "stop" : 1576500507610,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7a9291166acac215",
+        "name" : "期望code",
+        "source" : "7a9291166acac215.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "3be9c8e99a781f91",
+        "name" : "期望data",
+        "source" : "3be9c8e99a781f91.attach",
+        "type" : "text/plain",
+        "size" : 42713
+      }, {
+        "uid" : "6f5d0fb15e95d9e5",
+        "name" : "实际code",
+        "source" : "6f5d0fb15e95d9e5.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "c235e5f5da2e23a1",
+        "name" : "实际data",
+        "source" : "c235e5f5da2e23a1.attach",
+        "type" : "text/plain",
+        "size" : 42883
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1c76f5cbf3e70664",
+      "name" : "log",
+      "source" : "1c76f5cbf3e70664.txt",
+      "type" : "text/plain",
+      "size" : 45024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "assem"
+  }, {
+    "name" : "story",
+    "value" : "assem"
+  }, {
+    "name" : "parentSuite",
+    "value" : "aff.testcase.assem"
+  }, {
+    "name" : "suite",
+    "value" : "test_assem"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAssem"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "43757-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "aff.testcase.assem.test_assem"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_param",
+    "value" : "{'page': '1', 'pagesize': '0'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "40656c9fbe8837c3.json",
+  "parameterValues" : [ "{'page': '1', 'pagesize': '0'}" ]
+}

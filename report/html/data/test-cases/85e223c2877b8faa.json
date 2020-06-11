@@ -1,0 +1,246 @@
+{
+  "uid" : "85e223c2877b8faa",
+  "name" : "test_routes[参数{'open_id': '25J'}]",
+  "fullName" : "aff.testcase.routes.test_routes.TestRoutes#test_routes",
+  "historyId" : "8fc53f8329477b7d47242cfd30592a0d",
+  "time" : {
+    "start" : 1576500571071,
+    "stop" : 1576500571573,
+    "duration" : 502
+  },
+  "description" : "\n\t\t测试用例说明\n        :test_case: routes\n\n        ",
+  "descriptionHtml" : "<pre><code>\t测试用例说明\n    :test_case: routes\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: http状态码错误！\n 403 != 200",
+  "statusTrace" : "self = <test_routes.TestRoutes object at 0x114d9ead0>\ncase_param = {'open_id': '25J'}\n\n        @allure.story(\"routes\")\n        #@pytest.mark.flaky(reruns=3, reruns_delay=3)\n        @pytest.mark.parametrize(\"case_param\", data, ids=ids_data)\n        def test_routes(self, case_param):\n            \"\"\"\n    \t\t测试用例说明\n            :test_case: routes\n    \n            \"\"\"\n            self.init_relevance = ini_request(case_dict, PATH)\n            # 发送测试请求\n>           api_send_check(case_dict[\"test_case\"], case_dict, self.init_relevance, case_param, PATH)\n\naff/testcase/routes/test_routes.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbin/unit/apiSendCheck.py:28: in api_send_check\n    checkResult.check_result(case[\"test_name\"], case[\"check\"], code, data, _path, relevance)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ntest_name = 'routes'\ncase = {'check_type': 'json', 'expected_code': 200, 'expected_request': 'result_routes.json'}\ncode = 403, data = {'code': 6017, 'data': {}, 'msg': '没有权限访问此API'}\n_path = '/Users/hyman/SynologyDrive/code/pytest/Aff_service_git/aff/page/routes'\nrelevance = None\n\n    def check_result(test_name, case, code, data, _path, relevance=None):\n    \t\"\"\"\n    \t校验测试结果\n    \t:param test_name: 测试名称\n    \t:param case: 测试用例\n    \t:param code: HTTP状态\n    \t:param data: 返回的接口json数据\n    \t:param relevance: 关联值对象\n    \t:param _path: case路径\n    \t:return:\n    \t\"\"\"\n    \t# 不校验结果\n    \tif case[\"check_type\"] == 'no_check':\n    \t\twith allure.step(\"不校验结果\"):\n    \t\t\tpass\n    \t# json格式校验\n    \telif case[\"check_type\"] == 'json':\n    \t\texpected_request = case[\"expected_request\"]\n    \t\tif isinstance(case[\"expected_request\"], str):\n    \t\t\texpected_request = readExpectedResult.read_json(test_name, expected_request, _path, relevance)\n    \t\twith allure.step(\"JSON格式校验\"):\n    \t\t\tallure.attach(str(case[\"expected_code\"]), \"期望code\")\n    \t\t\tallure.attach(str(expected_request), '期望data')\n    \t\t\tallure.attach(str(code), \"实际code\")\n    \t\t\tallure.attach(str(data), '实际data')\n    \t\tif int(code) == case[\"expected_code\"]:\n    \t\t\tif not data:\n    \t\t\t\tdata = \"{}\"\n    \t\t\tcheck_json(expected_request, data)\n    \t\telse:\n    \t\t\t#raise Exception(\"http状态码错误！\\n %s != %s\" % (code, case[\"expected_code\"]))\n>   \t\t\tassert False,\"http状态码错误！\\n %s != %s\" % (code, case[\"expected_code\"])\nE      AssertionError: http状态码错误！\nE       403 != 200\n\nbin/unit/checkResult.py:73: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1576500571037,
+      "stop" : 1576500571037,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n\t\t测试用例说明\n        :test_case: routes\n\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: http状态码错误！\n 403 != 200",
+    "statusTrace" : "self = <test_routes.TestRoutes object at 0x114d9ead0>\ncase_param = {'open_id': '25J'}\n\n        @allure.story(\"routes\")\n        #@pytest.mark.flaky(reruns=3, reruns_delay=3)\n        @pytest.mark.parametrize(\"case_param\", data, ids=ids_data)\n        def test_routes(self, case_param):\n            \"\"\"\n    \t\t测试用例说明\n            :test_case: routes\n    \n            \"\"\"\n            self.init_relevance = ini_request(case_dict, PATH)\n            # 发送测试请求\n>           api_send_check(case_dict[\"test_case\"], case_dict, self.init_relevance, case_param, PATH)\n\naff/testcase/routes/test_routes.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbin/unit/apiSendCheck.py:28: in api_send_check\n    checkResult.check_result(case[\"test_name\"], case[\"check\"], code, data, _path, relevance)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ntest_name = 'routes'\ncase = {'check_type': 'json', 'expected_code': 200, 'expected_request': 'result_routes.json'}\ncode = 403, data = {'code': 6017, 'data': {}, 'msg': '没有权限访问此API'}\n_path = '/Users/hyman/SynologyDrive/code/pytest/Aff_service_git/aff/page/routes'\nrelevance = None\n\n    def check_result(test_name, case, code, data, _path, relevance=None):\n    \t\"\"\"\n    \t校验测试结果\n    \t:param test_name: 测试名称\n    \t:param case: 测试用例\n    \t:param code: HTTP状态\n    \t:param data: 返回的接口json数据\n    \t:param relevance: 关联值对象\n    \t:param _path: case路径\n    \t:return:\n    \t\"\"\"\n    \t# 不校验结果\n    \tif case[\"check_type\"] == 'no_check':\n    \t\twith allure.step(\"不校验结果\"):\n    \t\t\tpass\n    \t# json格式校验\n    \telif case[\"check_type\"] == 'json':\n    \t\texpected_request = case[\"expected_request\"]\n    \t\tif isinstance(case[\"expected_request\"], str):\n    \t\t\texpected_request = readExpectedResult.read_json(test_name, expected_request, _path, relevance)\n    \t\twith allure.step(\"JSON格式校验\"):\n    \t\t\tallure.attach(str(case[\"expected_code\"]), \"期望code\")\n    \t\t\tallure.attach(str(expected_request), '期望data')\n    \t\t\tallure.attach(str(code), \"实际code\")\n    \t\t\tallure.attach(str(data), '实际data')\n    \t\tif int(code) == case[\"expected_code\"]:\n    \t\t\tif not data:\n    \t\t\t\tdata = \"{}\"\n    \t\t\tcheck_json(expected_request, data)\n    \t\telse:\n    \t\t\t#raise Exception(\"http状态码错误！\\n %s != %s\" % (code, case[\"expected_code\"]))\n>   \t\t\tassert False,\"http状态码错误！\\n %s != %s\" % (code, case[\"expected_code\"])\nE      AssertionError: http状态码错误！\nE       403 != 200\n\nbin/unit/checkResult.py:73: AssertionError",
+    "steps" : [ {
+      "name" : "GET请求接口",
+      "time" : {
+        "start" : 1576500571081,
+        "stop" : 1576500571117,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39a8fbb378ca58f4",
+        "name" : "请求接口",
+        "source" : "39a8fbb378ca58f4.attach",
+        "type" : "text/plain",
+        "size" : 14
+      }, {
+        "uid" : "c8f5f1b1b57a359",
+        "name" : "请求地址",
+        "source" : "c8f5f1b1b57a359.attach",
+        "type" : "text/plain",
+        "size" : 39
+      }, {
+        "uid" : "a3b118864aa89fc0",
+        "name" : "请求头",
+        "source" : "a3b118864aa89fc0.attach",
+        "type" : "text/plain",
+        "size" : 966
+      }, {
+        "uid" : "328af6e9b2858148",
+        "name" : "请求参数",
+        "source" : "328af6e9b2858148.attach",
+        "type" : "text/plain",
+        "size" : 18
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "JSON格式校验",
+      "time" : {
+        "start" : 1576500571555,
+        "stop" : 1576500571573,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "74a68e5f71bf7961",
+        "name" : "期望code",
+        "source" : "74a68e5f71bf7961.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "91fdbb905517e662",
+        "name" : "期望data",
+        "source" : "91fdbb905517e662.attach",
+        "type" : "text/plain",
+        "size" : 201808
+      }, {
+        "uid" : "b531035c35790ee7",
+        "name" : "实际code",
+        "source" : "b531035c35790ee7.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "fe593a7d28358bc6",
+        "name" : "实际data",
+        "source" : "fe593a7d28358bc6.attach",
+        "type" : "text/plain",
+        "size" : 61
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "57b88ce50e3b4f0b",
+      "name" : "log",
+      "source" : "57b88ce50e3b4f0b.txt",
+      "type" : "text/plain",
+      "size" : 2935
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "routes"
+  }, {
+    "name" : "feature",
+    "value" : "routes"
+  }, {
+    "name" : "parentSuite",
+    "value" : "aff.testcase.routes"
+  }, {
+    "name" : "suite",
+    "value" : "test_routes"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRoutes"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "44461-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "aff.testcase.routes.test_routes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_param",
+    "value" : "{'open_id': '25J'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 7,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "1c94395ae699a22a",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/1c94395ae699a22a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+        "time" : {
+          "start" : 1576500343493,
+          "stop" : 1576500343686,
+          "duration" : 193
+        }
+      }, {
+        "uid" : "2ed0e35ce8ac559d",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/2ed0e35ce8ac559d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+        "time" : {
+          "start" : 1576221963926,
+          "stop" : 1576221965220,
+          "duration" : 1294
+        }
+      }, {
+        "uid" : "46c1b4c4654a423c",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/63/allure/#testresult/46c1b4c4654a423c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+        "time" : {
+          "start" : 1576219841971,
+          "stop" : 1576219842876,
+          "duration" : 905
+        }
+      }, {
+        "uid" : "537d192b8a67e5b2",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/58/allure/#testresult/537d192b8a67e5b2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+        "time" : {
+          "start" : 1576208841278,
+          "stop" : 1576208842177,
+          "duration" : 899
+        }
+      }, {
+        "uid" : "9fb33369720fef45",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/55/allure/#testresult/9fb33369720fef45",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: http状态码错误！\n 403 != 200",
+        "time" : {
+          "start" : 1576206711417,
+          "stop" : 1576206712382,
+          "duration" : 965
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "85e223c2877b8faa.json",
+  "parameterValues" : [ "{'open_id': '25J'}" ]
+}

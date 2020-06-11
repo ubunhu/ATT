@@ -1,0 +1,246 @@
+{
+  "uid" : "f0cbbe40b67aa0e0",
+  "name" : "test_assem[参数{'open_id': '0', 'pagesize': '0'}]",
+  "fullName" : "aff.testcase.assem.test_assem.TestAssem#test_assem",
+  "historyId" : "75b346a834b2a661273f97f5b5f3bd68",
+  "time" : {
+    "start" : 1576500575864,
+    "stop" : 1576500575991,
+    "duration" : 127
+  },
+  "description" : "\n\t\t测试用例说明\n        :test_case: assem\n\n        ",
+  "descriptionHtml" : "<pre><code>\t测试用例说明\n    :test_case: assem\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+  "statusTrace" : "self = <test_assem.TestAssem object at 0x114db1ed0>\ncase_param = {'open_id': '0', 'pagesize': '0'}\n\n        @allure.story(\"assem\")\n        #@pytest.mark.flaky(reruns=3, reruns_delay=3)\n        @pytest.mark.parametrize(\"case_param\", data, ids=ids_data)\n        def test_assem(self, case_param):\n            \"\"\"\n    \t\t测试用例说明\n            :test_case: assem\n    \n            \"\"\"\n            self.init_relevance = ini_request(case_dict, PATH)\n            # 发送测试请求\n>           api_send_check(case_dict[\"test_case\"], case_dict, self.init_relevance, case_param, PATH)\n\naff/testcase/assem/test_assem.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbin/unit/apiSendCheck.py:28: in api_send_check\n    checkResult.check_result(case[\"test_name\"], case[\"check\"], code, data, _path, relevance)\nbin/unit/checkResult.py:70: in check_result\n    check_json(expected_request, data)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nsrc_data = {'code': 0, 'data': {'contents': [{'desc': '海浪泳池，复古花园下午茶，登高望远的动物园以及复古造型惊艳动人的潮流商场，这些新晋的网红景点，成为了悉尼最新的地标。', 'favouriteNum...ike'}, {'name': '亲子游', 'value': '2'}, {'name': '自驾游', 'value': '3'}, {'name': '深度游', 'value': '1'}]}, 'msg': 'success'}\ndst_data = {'code': 999, 'msg': '参数page为空'}\n\n    def check_json(src_data, dst_data):\n    \t\"\"\"\n    \t校验的json\n    \t:param src_data: 检验内容\n    \t:param dst_data: 接口返回的数据\n    \t:return:\n    \t\"\"\"\n    \tif isinstance(src_data, dict):\n    \t\tfor key in src_data:\n    \t\t\tif key not in dst_data:\n    \t\t\t\t#raise Exception(\"JSON格式校验，关键字%s不在返回结果%s中\" % (key, dst_data))\n>   \t\t\t\tassert False,\"JSON格式校验，关键字%s不在返回结果%s中\" % (key, dst_data)\nE       AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中\n\nbin/unit/checkResult.py:26: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "before",
+    "time" : {
+      "start" : 1576500575863,
+      "stop" : 1576500575863,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n\t\t测试用例说明\n        :test_case: assem\n\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+    "statusTrace" : "self = <test_assem.TestAssem object at 0x114db1ed0>\ncase_param = {'open_id': '0', 'pagesize': '0'}\n\n        @allure.story(\"assem\")\n        #@pytest.mark.flaky(reruns=3, reruns_delay=3)\n        @pytest.mark.parametrize(\"case_param\", data, ids=ids_data)\n        def test_assem(self, case_param):\n            \"\"\"\n    \t\t测试用例说明\n            :test_case: assem\n    \n            \"\"\"\n            self.init_relevance = ini_request(case_dict, PATH)\n            # 发送测试请求\n>           api_send_check(case_dict[\"test_case\"], case_dict, self.init_relevance, case_param, PATH)\n\naff/testcase/assem/test_assem.py:49: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbin/unit/apiSendCheck.py:28: in api_send_check\n    checkResult.check_result(case[\"test_name\"], case[\"check\"], code, data, _path, relevance)\nbin/unit/checkResult.py:70: in check_result\n    check_json(expected_request, data)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nsrc_data = {'code': 0, 'data': {'contents': [{'desc': '海浪泳池，复古花园下午茶，登高望远的动物园以及复古造型惊艳动人的潮流商场，这些新晋的网红景点，成为了悉尼最新的地标。', 'favouriteNum...ike'}, {'name': '亲子游', 'value': '2'}, {'name': '自驾游', 'value': '3'}, {'name': '深度游', 'value': '1'}]}, 'msg': 'success'}\ndst_data = {'code': 999, 'msg': '参数page为空'}\n\n    def check_json(src_data, dst_data):\n    \t\"\"\"\n    \t校验的json\n    \t:param src_data: 检验内容\n    \t:param dst_data: 接口返回的数据\n    \t:return:\n    \t\"\"\"\n    \tif isinstance(src_data, dict):\n    \t\tfor key in src_data:\n    \t\t\tif key not in dst_data:\n    \t\t\t\t#raise Exception(\"JSON格式校验，关键字%s不在返回结果%s中\" % (key, dst_data))\n>   \t\t\t\tassert False,\"JSON格式校验，关键字%s不在返回结果%s中\" % (key, dst_data)\nE       AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中\n\nbin/unit/checkResult.py:26: AssertionError",
+    "steps" : [ {
+      "name" : "POST请求接口",
+      "time" : {
+        "start" : 1576500575869,
+        "stop" : 1576500575871,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "54fc34697d55a518",
+        "name" : "请求接口：",
+        "source" : "54fc34697d55a518.attach",
+        "type" : "text/plain",
+        "size" : 14
+      }, {
+        "uid" : "3213e793c4a40b22",
+        "name" : "请求地址",
+        "source" : "3213e793c4a40b22.attach",
+        "type" : "text/plain",
+        "size" : 39
+      }, {
+        "uid" : "5965bf79022697cc",
+        "name" : "请求头",
+        "source" : "5965bf79022697cc.attach",
+        "type" : "text/plain",
+        "size" : 591
+      }, {
+        "uid" : "d29d87eb1591a508",
+        "name" : "请求参数",
+        "source" : "d29d87eb1591a508.attach",
+        "type" : "text/plain",
+        "size" : 33
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "JSON格式校验",
+      "time" : {
+        "start" : 1576500575987,
+        "stop" : 1576500575991,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a792c2c49870285",
+        "name" : "期望code",
+        "source" : "2a792c2c49870285.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "3d206a2d2b94f8e8",
+        "name" : "期望data",
+        "source" : "3d206a2d2b94f8e8.attach",
+        "type" : "text/plain",
+        "size" : 42713
+      }, {
+        "uid" : "4707b69dd68e9cc",
+        "name" : "实际code",
+        "source" : "4707b69dd68e9cc.attach",
+        "type" : "text/plain",
+        "size" : 3
+      }, {
+        "uid" : "3768ff3e74afa50",
+        "name" : "实际data",
+        "source" : "3768ff3e74afa50.attach",
+        "type" : "text/plain",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "79647741b4ea6280",
+      "name" : "log",
+      "source" : "79647741b4ea6280.txt",
+      "type" : "text/plain",
+      "size" : 2184
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "assem"
+  }, {
+    "name" : "feature",
+    "value" : "assem"
+  }, {
+    "name" : "parentSuite",
+    "value" : "aff.testcase.assem"
+  }, {
+    "name" : "suite",
+    "value" : "test_assem"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAssem"
+  }, {
+    "name" : "host",
+    "value" : "localhost"
+  }, {
+    "name" : "thread",
+    "value" : "44461-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "aff.testcase.assem.test_assem"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_param",
+    "value" : "{'open_id': '0', 'pagesize': '0'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ "failed" ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 10,
+        "broken" : 9,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 19
+      },
+      "items" : [ {
+        "uid" : "9115fcff19ba1d8b",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/71/allure/#testresult/9115fcff19ba1d8b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+        "time" : {
+          "start" : 1576500344471,
+          "stop" : 1576500344597,
+          "duration" : 126
+        }
+      }, {
+        "uid" : "36629845444d709c",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/64/allure/#testresult/36629845444d709c",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+        "time" : {
+          "start" : 1576221966839,
+          "stop" : 1576221967363,
+          "duration" : 524
+        }
+      }, {
+        "uid" : "46b6090a2bf99d93",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/60/allure/#testresult/46b6090a2bf99d93",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+        "time" : {
+          "start" : 1576219055731,
+          "stop" : 1576219055923,
+          "duration" : 192
+        }
+      }, {
+        "uid" : "3fc337c2b245304d",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/58/allure/#testresult/3fc337c2b245304d",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+        "time" : {
+          "start" : 1576208844446,
+          "stop" : 1576208844950,
+          "duration" : 504
+        }
+      }, {
+        "uid" : "5970f6159bd902e2",
+        "reportUrl" : "http://localhost:8080/job/ms_api_pytest/55/allure/#testresult/5970f6159bd902e2",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: JSON格式校验，关键字data不在返回结果{'code': 999, 'msg': '参数page为空'}中",
+        "time" : {
+          "start" : 1576206716475,
+          "stop" : 1576206716940,
+          "duration" : 465
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f0cbbe40b67aa0e0.json",
+  "parameterValues" : [ "{'open_id': '0', 'pagesize': '0'}" ]
+}
