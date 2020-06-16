@@ -4,3 +4,7 @@
 # @Project  : ATT
 # @File     : test.py
 # @explain  : 文件说明
+
+title = ["uu_01"]
+title = title[0].split("_")
+print(title)

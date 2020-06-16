@@ -85,6 +85,17 @@ def check_result(test_name, case, code, data, _path, relevance=None):
 		else:
 			#raise Exception("http状态码错误！\n %s != %s" % (code, case["expected_code"]))
 			assert False,"http状态码错误！\n %s != %s" % (code, case["expected_code"])
+	# 校验状态码和msg
+	elif case["check_type"] == 'status_msg':
+		with allure.step("校验HTTP状态以及msg消息"):
+			allure.attach("期望code", str(case["expected_code"]))
+			allure.attach("实际code", str(code))
+			allure.attach('实际data', str(data))
+		if int(code) == case["expected_code"] and data["msg"]  == case["expected_msg"]:
+			pass
+		else:
+			#raise Exception("http状态码错误！\n %s != %s" % (code, case["expected_code"]))
+			assert False,"http状态码或msg错误！\n %s != %s" % (code, case["expected_code"])
 	# 完全校验
 	elif case["check_type"] == 'entirely_check':
 		expected_request = case["expected_request"]

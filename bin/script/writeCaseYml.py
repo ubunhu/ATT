@@ -14,7 +14,7 @@ import urllib.parse
 from ruamel import yaml
 
 from bin.script.mkDir import mk_dir
-
+from bin.script.readCsv import getTestCase
 
 def write_open_path(i, har_path):
 	with open(har_path + '/' + str(i), 'r', encoding='utf-8') as f:
@@ -32,14 +32,15 @@ def write_open_path(i, har_path):
 		# else:
 		# 	title = path.split("/")[-1]
 		title = re.findall('(.*?).chlsj', i)
-		if "_" in title[0]:
-			title = title[0].split("_")
-		if len(title) > 1:
-			case_no = title[-1]
-			info_id = "test_" + title[0] + '_' + title[-1]
-		else:
-			case_no = None
-			info_id = "test_" + title[0] + "_" + "01"
+		# if "_" in title[0]:
+		# 	title = title[0].split("_")
+		# if len(title) > 1:
+		# 	case_no = title[-1]
+		# 	info_id = "test_" + title[0] + '_' + title[-1]
+		# else:
+		title = title[0].split("_")
+		case_no = title[-1]
+		info_id = "test_" + title[0] + "_" + case_no
 		parameter_type = har_ct["request"]["mimeType"]
 		parameter = dict()
 		try:
@@ -108,10 +109,8 @@ def write_open_path(i, har_path):
 	return case_path, title, case_list, expected_request, check, parameter, case_no
 
 def writting_json(title, case_path, expected_request, check, parameter, case_no):
-	if len(title) > 1:
-		result_file = 'result_' + title[0] + '_' + title[-1] + '.json'
-	else:
-		result_file = 'result_' + title[0] + '.json'
+
+	result_file = 'result_' + title[0] + "_" + case_no + '.json'
 	# result参数大于4时，写入result.json中
 	# if len(expected_request) >= 4:
 	if result_file in os.listdir(case_path):
@@ -126,11 +125,12 @@ def writting_json(title, case_path, expected_request, check, parameter, case_no)
 			result_list.append(result_dicts)
 
 			json.dump(result_list, ff, ensure_ascii=False, indent=4)
-	check["expected_request"] = result_file
-	if case_no != None:
-		param_file = case_path + '/' +  title[0] + '_' + title[-1] + '.json'
-	else:
-		param_file = case_path + '/' + title[0] + '.json'
+	if check is str == False:
+		check["expected_request"] = result_file
+	# if case_no != None:
+	# 	param_file = case_path + '/' +  title[0] + '_' + title[-1] + '.json'
+	# else:
+	param_file = case_path + '/' + title[0] + "_" + case_no + '.json'
 	# para参数大于等于4时，参数文件单独写入json中
 	# if len(parameter) >= 4:
 	if param_file in os.listdir(case_path):
@@ -146,10 +146,10 @@ def writting_json(title, case_path, expected_request, check, parameter, case_no)
 
 
 def writting_yml(case_file_list, case_path, title, case_list, case_no):
-	if case_no != None:
-		case_file = case_path + '/' +  title[0] + '_' + title[-1] + '.yml'
-	else:
-		case_file = case_path + '/' + title[0] + '.yml'
+	# if case_no != None:
+	# 	case_file = case_path + '/' +  title[0] + '_' + title[-1] + '.yml'
+	# else:
+	case_file = case_path + '/' + title[0] + "_" + case_no + '.yml'
 	if case_file in os.listdir(case_path):
 		pass
 	else:
@@ -182,10 +182,12 @@ def write_case_yml(har_path):
 			case_file_list = writting_yml(case_file_list, case_path, title, case_list, case_no)
 		else:
 			har_fixture_path = har_path + "/" + i
-			har_lists = [f for f in os.listdir(har_fixture_path) if not f.startswith('.')]
+			har_lists = getTestCase(har_fixture_path)
+			project_path = str(os.path.abspath('.').split('bin')[0])
 			for case in har_lists:
-				case_path, title, case_list, expected_request, check, parameter, case_no = write_open_path(case,
-				                                                                                           har_fixture_path)
-				writting_json(title, case_path, expected_request, check, parameter, case_no)
-				case_file_list = writting_yml(case_file_list, case_path, title, case_list, case_no)
+				case_path = project_path + '/testcase/source/' + case["name"]
+				title = list(case["name"].split(" "))
+				mk_dir(case_path)
+				writting_json(title, case_path, case["expect"], case["check"], case["params"], case["num"])
+				case_file_list = writting_yml(case_file_list, case_path, title, case, case["num"])
 	return case_file_list

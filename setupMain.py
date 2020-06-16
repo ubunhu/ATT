@@ -11,7 +11,7 @@ import pytest
 
 from bin.script.logs import LogConfig
 from bin.script.writeCase import write_define
-#from check_results import checked
+from bin.script.readCsv import getTestCase
 
 PATH = os.path.split(os.path.realpath(__file__))[0]
 xml_report_path = PATH + "/report/xml/"

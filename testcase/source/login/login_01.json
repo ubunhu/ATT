@@ -1,0 +1,12 @@
+[
+    {
+        "test_name": [
+            "login"
+        ],
+        "parameter": {
+            "page": "1",
+            "open_id": "0",
+            "pagesize": "0"
+        }
+    }
+]

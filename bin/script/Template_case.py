@@ -33,7 +33,6 @@ else:
 	    "参数{}".
 	        format(id_data) for id_data in test_param
 	]
-
 @pytest.fixture()
 def test_before():
 	"""
@@ -44,8 +43,6 @@ def test_before():
 @pytest.mark.usefixtures("test_before")
 @allure.feature(case_dict["test_info"]["title"])
 class TestTemplate(object):
-
-
     @allure.story("Template")
     #@pytest.mark.flaky(reruns=3, reruns_delay=3)
     @pytest.mark.parametrize("case_param", test_param, ids=ids_data)
