@@ -7,10 +7,10 @@
 
 import csv
 def getTestCase(filename):
-	#filename = "testcase.csv"
+	#filename = '/Users/hyman/SynologyDrive/code/pytest/ATT/data/case.csv'
 	testCase = []
 	key = None
-	with open(filename) as f:
+	with open(filename,'r', encoding='UTF-8') as f:
 		reader = csv.reader(f)
 
 		for row in reader:
@@ -19,18 +19,22 @@ def getTestCase(filename):
 			else:
 				testCase.append(dict(zip(key,row)))
 	for case in testCase:
-		case_header = case["header"].split(",")
-		case_params = case["params"].split(",")
-		case_expect = case["expect"].split(",")
 		header = {}
 		params = {}
 		expect = {}
-		for iterm_h in case_header:
-			iterm_h = iterm_h.split(":")
-			header[iterm_h[0]] = iterm_h[1]
-		for iterm_p in case_params:
-			iterm_p = iterm_p.split(":")
-			params[iterm_p[0]] = iterm_p[1]
+
+		case_header = case["header"].split(",")
+		if case_header[0] != "" and len(case_header) > 0:
+			for iterm_h in case_header:
+				iterm_h = iterm_h.split(":")
+				header[iterm_h[0]] = iterm_h[1]
+
+		case_params = case["params"].split(",")
+		if case_params[0] != "" and len(case_params) > 0:
+			for iterm_p in case_params:
+				iterm_p = iterm_p.split(":")
+				params[iterm_p[0]] = iterm_p[1]
+		case_expect = case["expect"].split(",")
 		for iterm_e in case_expect:
 			iterm_e = iterm_e.split(":")
 			expect[iterm_e[0]] = iterm_e[1]
@@ -45,3 +49,6 @@ def getTestCase(filename):
 		# else:
 		# 	case["num"] = 1
 	return testCase
+
+
+#print(getTestCase())

@@ -1,41 +1,19 @@
 {
-  "total" : 4,
+  "total" : 2,
   "items" : [ {
-    "uid" : "6d3dc06e4321f8a0832fe3b44cc39fec",
-    "name" : "aff.testcase.assem",
+    "uid" : "e46053f8cfb9c597ea92a1f8cadf732c",
+    "name" : "testcase.login",
     "statistic" : {
-      "failed" : 3,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 4,
-      "unknown" : 0,
-      "total" : 7
-    }
-  }, {
-    "uid" : "c3680a5dd4fa3199d311665b6ddfaa85",
-    "name" : "aff.testcase.routes",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
+      "failed" : 0,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 3
     }
   }, {
-    "uid" : "dc7019096ecd11c9147d71a09f5debbf",
-    "name" : "aff.testcase.unreadsize",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "0a14c10bc2170e54131f9e4d0cd0ba09",
-    "name" : "aff.testcase.sample",
+    "uid" : "89e4b64ed58c7ec473a5acb536e0c872",
+    "name" : "testcase.mainpage",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

@@ -28,28 +28,3 @@ def header_manage(args):
 	except TypeError:
 		pass
 	return config_args
-
-
-def mail_manage(ml):
-	"""
-	email关联配置
-	:param ml:
-	:return:
-	"""
-	try:
-		relevance_list = re.findall("\${(.*?)}\$", ml)
-		for n in relevance_list:
-			pattern = re.compile('\${' + n + '}\$')
-			email_cf = Config()
-			email_relevance = email_cf.read_email()
-			ml = re.sub(pattern, email_relevance[n], ml, count=1)
-	except TypeError:
-		pass
-	return ml
-
-
-if __name__ == '__main__':
-	host = host_manage(hos='${debug_pre}$')
-	email = mail_manage(ml='${smtpserver}$')
-	print(host)
-	print(email)

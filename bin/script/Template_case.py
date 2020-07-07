@@ -10,50 +10,27 @@ import allure
 import pytest
 import setupMain
 
-from bin.unit.initializeCase import ini_case
+
 from bin.unit.initializePremise import ini_request
 from bin.unit.apiSendCheck import api_send_check
-from bin.unit.readParameter import read_param,check_param
-from bin.script.customParam import customparam
+
 
 
 PATH = setupMain.PATH + "/testcase/source"
 
-case_dict = ini_case(PATH, "Template")
-#使用自定义的参数
-param = customparam()
-#使用chls请求时参数
-param = read_param(case_dict["test_case"]["test_name"],case_dict["test_case"]["parameter"],PATH,None)
-#排列组合所有参数
-test_param = check_param(param)
-if len(test_param) == 0:
-	ids_data = []
-else:
-	ids_data = [
-	    "参数{}".
-	        format(id_data) for id_data in test_param
-	]
-@pytest.fixture()
-def test_before():
-	"""
-	from resoure.fixture import xxx
-	xxx(xxx)
-	"""
-	print("if need add other fixture")
-@pytest.mark.usefixtures("test_before")
-@allure.feature(case_dict["test_info"]["title"])
-class TestTemplate(object):
+
+@allure.feature
+class TestTemplate:
+
+    @pytest.mark.parametrize
     @allure.story("Template")
-    #@pytest.mark.flaky(reruns=3, reruns_delay=3)
-    @pytest.mark.parametrize("case_param", test_param, ids=ids_data)
-    def test_template(self, case_param):
+    @pytest.mark.flaky(reruns=3, reruns_delay=3)
+    def test_template(self, case_data):
         """
-		测试用例说明
-        :test_case: Template
 
+        :param case_data: 测试用例
+        :return:
         """
-        self.init_relevance = ini_request(case_dict, PATH)
+        #self.init_relevance = ini_request(case_dict, PATH)
         # 发送测试请求
-        api_send_check(case_dict["test_case"], case_dict, self.init_relevance, case_param, PATH)
-
-
+        api_send_check(case_data, case_dict, self.init_relevance, PATH)

@@ -1,41 +1,19 @@
 {
-  "total" : 4,
+  "total" : 2,
   "items" : [ {
-    "uid" : "89a666123e39b4c31736cc59030c929f",
-    "name" : "routes",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "0f2404ffa83f843d27cbb2ccd78ca861",
-    "name" : "assem",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "ed685a39bba1a3b5715df31be6592da6",
-    "name" : "unreadsize",
+    "uid" : "6958045a481574bf02bb11ef07a7047b",
+    "name" : "登录模块",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 3
     }
   }, {
-    "uid" : "da0520ba3d30c689593fd46dcd65f0c7",
-    "name" : "sample",
+    "uid" : "eaa2a198f4e7a200ae4212d088e65135",
+    "name" : "首页",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

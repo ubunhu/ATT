@@ -1,0 +1,21 @@
+id: '3'
+name: mainpage
+num: '1'
+title: "\u9996\u9875"
+case: "\u9996\u9875\u6570\u636E\u6B63\u5E38"
+description: "\u6B63\u786E\u6570\u636E"
+before: ''
+params: {}
+url: http://test.doctorpanda.com/panda-user-web/mainpage/getMP?bizType=1
+file: ''
+method: get
+header:
+  Host: test.doctorpanda.com
+check: status_msg
+expect:
+  code: '200'
+  msg: "\u8BF7\u6C42\u6210\u529F"
+results: ''
+testResult: ''
+version: ''
+date: ''

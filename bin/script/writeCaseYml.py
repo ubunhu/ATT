@@ -145,27 +145,17 @@ def writting_json(title, case_path, expected_request, check, parameter, case_no)
 			json.dump(new_list, fs, ensure_ascii=False, indent=4)
 
 
-def writting_yml(case_file_list, case_path, title, case_list, case_no):
+def writting_yml(case_path, title, case_list, case_no):
 	# if case_no != None:
 	# 	case_file = case_path + '/' +  title[0] + '_' + title[-1] + '.yml'
 	# else:
-	case_file = case_path + '/' + title[0] + "_" + case_no + '.yml'
+	case_file = case_path + "/" + title[0] + "_" + case_no + '.yml'
 	if case_file in os.listdir(case_path):
 		pass
 	else:
 		with open(case_file, 'w+', encoding='utf-8') as ff:
 			logging.debug("从%s目录下，写入测试文件%s" % (case_path, case_file))
 			yaml.dump(case_list, ff, Dumper=yaml.RoundTripDumper)
-			if title[0] in case_file_list:
-				pass
-			else:
-				if "commonData" in case_file:
-					case_file_list[title[0]] = 1
-				else:
-					case_file_list[title[0]] = 0
-	return case_file_list
-
-
 def write_case_yml(har_path):
 	"""
 	循环读取导出文件
@@ -174,20 +164,26 @@ def write_case_yml(har_path):
 	"""
 	# har_list = os.listdir(har_path)
 	har_list = [f for f in os.listdir(har_path) if not f.startswith('.')]
+	project_path = str(os.path.abspath('.').split('bin')[0])
 	case_file_list = {}
 	for i in har_list:
 		if 'chlsj' in i:
 			case_path, title, case_list, expected_request, check, parameter, case_no = write_open_path(i, har_path)
 			writting_json(title, case_path, expected_request, check, parameter, case_no)
-			case_file_list = writting_yml(case_file_list, case_path, title, case_list, case_no)
+			writting_yml(case_path, title, case_list, case_no)
 		else:
 			har_fixture_path = har_path + "/" + i
 			har_lists = getTestCase(har_fixture_path)
-			project_path = str(os.path.abspath('.').split('bin')[0])
 			for case in har_lists:
 				case_path = project_path + '/testcase/source/' + case["name"]
 				title = list(case["name"].split(" "))
 				mk_dir(case_path)
 				writting_json(title, case_path, case["expect"], case["check"], case["params"], case["num"])
-				case_file_list = writting_yml(case_file_list, case_path, title, case, case["num"])
+				writting_yml(case_path, title, case, case["num"])
+	srouce_path = project_path + '/testcase/source/'
+	srouce_file = [f for f in os.listdir(srouce_path) if not f.startswith('.')]
+	for path in srouce_file:
+		srouce_file_list = [f for f in os.listdir(srouce_path + path) if not f.startswith('.')]
+		num = len(srouce_file_list) / 3
+		case_file_list[path] = int(num)
 	return case_file_list

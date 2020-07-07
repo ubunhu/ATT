@@ -65,6 +65,4 @@ def read_param(test_name, param, _path, relevance=None):
 		except JSONDecodeError:
 			raise Exception("用例关联的参数文件有误\n文件路径： %s" % param)
 	#把param重新排列组合,生成所有param组合
-
-
 	return param

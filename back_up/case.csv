@@ -1,0 +1,2 @@
+id,name,num,title,case,description,before,params,url,method,header,check,expect,results,testResult,version,date
+3,mainpage,1,首页,首页数据正常,正确数据,,,http://test.doctorpanda.com/panda-user-web/mainpage/getMP?bizType=1,get,Host:test.doctorpanda.com,status_msg,"code:200,msg:请求成功",,,,

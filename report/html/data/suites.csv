@@ -1,51 +1,21 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Dec 16 20:49:36 CST 2019","Mon Dec 16 20:49:36 CST 2019","97","aff.testcase.sample","test_sample","TestSample","","","test_sample[参数{'open_id': '0'}]","
-		测试用例说明
-        :test_case: sample
+"broken","Mon Jul 06 17:30:49 CST 2020","Mon Jul 06 17:30:49 CST 2020","2","testcase.login","test_login","Testlogin","","","test_login_1[参数{'usr': '1', 'psw': '1'}]","
+        测试用例说明
+        :test_case: Template
 
         "
-"passed","Mon Dec 16 20:49:35 CST 2019","Mon Dec 16 20:49:35 CST 2019","361","aff.testcase.assem","test_assem","TestAssem","","","test_assem[参数{'open_id': '0', 'page': '1'}]","
-		测试用例说明
-        :test_case: assem
+"broken","Mon Jul 06 17:30:49 CST 2020","Mon Jul 06 17:30:49 CST 2020","1","testcase.login","test_login","Testlogin","","","test_login_3[参数{'usr': '1', 'psw': '0'}]","
+        测试用例说明
+        :test_case: Template
 
         "
-"failed","Mon Dec 16 20:49:35 CST 2019","Mon Dec 16 20:49:35 CST 2019","320","aff.testcase.assem","test_assem","TestAssem","","","test_assem[参数{'pagesize': '0'}]","
-		测试用例说明
-        :test_case: assem
+"passed","Mon Jul 06 17:30:49 CST 2020","Mon Jul 06 17:30:51 CST 2020","2328","testcase.mainpage","test_mainpage","Testmainpage","","","test_mainpage_1[参数{}]","
+        测试用例说明
+        :test_case: Template
 
         "
-"passed","Mon Dec 16 20:49:33 CST 2019","Mon Dec 16 20:49:34 CST 2019","1011","aff.testcase.assem","test_assem","TestAssem","","","test_assem[参数{'page': '1'}]","
-		测试用例说明
-        :test_case: assem
-
-        "
-"passed","Mon Dec 16 20:49:30 CST 2019","Mon Dec 16 20:49:30 CST 2019","177","aff.testcase.unreadsize","test_unreadsize","TestUnreadsize","","","test_unreadsize[参数{'open_id': '0'}]","
-		测试用例说明
-        :test_case: unreadsize
-
-        "
-"failed","Mon Dec 16 20:49:32 CST 2019","Mon Dec 16 20:49:33 CST 2019","634","aff.testcase.assem","test_assem","TestAssem","","","test_assem[参数{'open_id': '0'}]","
-		测试用例说明
-        :test_case: assem
-
-        "
-"passed","Mon Dec 16 20:49:36 CST 2019","Mon Dec 16 20:49:36 CST 2019","389","aff.testcase.assem","test_assem","TestAssem","","","test_assem[参数{'page': '1', 'pagesize': '0'}]","
-		测试用例说明
-        :test_case: assem
-
-        "
-"passed","Mon Dec 16 20:49:34 CST 2019","Mon Dec 16 20:49:35 CST 2019","750","aff.testcase.assem","test_assem","TestAssem","","","test_assem[参数{'open_id': '0', 'page': '1', 'pagesize': '0'}]","
-		测试用例说明
-        :test_case: assem
-
-        "
-"failed","Mon Dec 16 20:49:35 CST 2019","Mon Dec 16 20:49:35 CST 2019","127","aff.testcase.assem","test_assem","TestAssem","","","test_assem[参数{'open_id': '0', 'pagesize': '0'}]","
-		测试用例说明
-        :test_case: assem
-
-        "
-"failed","Mon Dec 16 20:49:31 CST 2019","Mon Dec 16 20:49:31 CST 2019","502","aff.testcase.routes","test_routes","TestRoutes","","","test_routes[参数{'open_id': '25J'}]","
-		测试用例说明
-        :test_case: routes
+"broken","Mon Jul 06 17:30:49 CST 2020","Mon Jul 06 17:30:49 CST 2020","1","testcase.login","test_login","Testlogin","","","test_login_2[参数{'usr': '0', 'psw': '1'}]","
+        测试用例说明
+        :test_case: Template
 
         "

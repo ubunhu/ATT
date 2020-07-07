@@ -1,101 +1,41 @@
 [ {
-  "uid" : "97c2c121dc1ad930",
-  "name" : "test_assem[参数{'open_id': '0'}]",
+  "uid" : "bd48adeb056d8bc",
+  "name" : "test_mainpage_1[参数{}]",
   "time" : {
-    "start" : 1576500572470,
-    "stop" : 1576500573104,
-    "duration" : 634
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "3bc56a747084d40f",
-  "name" : "test_assem[参数{'pagesize': '0'}]",
-  "time" : {
-    "start" : 1576500575513,
-    "stop" : 1576500575833,
-    "duration" : 320
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "85e223c2877b8faa",
-  "name" : "test_routes[参数{'open_id': '25J'}]",
-  "time" : {
-    "start" : 1576500571071,
-    "stop" : 1576500571573,
-    "duration" : 502
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "18e12b95f87345bb",
-  "name" : "test_unreadsize[参数{'open_id': '0'}]",
-  "time" : {
-    "start" : 1576500570665,
-    "stop" : 1576500570842,
-    "duration" : 177
+    "start" : 1594027849573,
+    "stop" : 1594027851901,
+    "duration" : 2328
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cd9597aa0dc55fc9",
-  "name" : "test_assem[参数{'page': '1'}]",
+  "uid" : "5509b66c21eb4b5e",
+  "name" : "test_login_2[参数{'usr': '0', 'psw': '1'}]",
   "time" : {
-    "start" : 1576500573282,
-    "stop" : 1576500574293,
-    "duration" : 1011
+    "start" : 1594027849526,
+    "stop" : 1594027849527,
+    "duration" : 1
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "e0143a37577661ba",
-  "name" : "test_assem[参数{'page': '1', 'pagesize': '0'}]",
+  "uid" : "f17ea9fc6486b5fa",
+  "name" : "test_login_1[参数{'usr': '1', 'psw': '1'}]",
   "time" : {
-    "start" : 1576500576033,
-    "stop" : 1576500576422,
-    "duration" : 389
+    "start" : 1594027849551,
+    "stop" : 1594027849553,
+    "duration" : 2
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "9b393b9562acab9b",
-  "name" : "test_assem[参数{'open_id': '0', 'page': '1'}]",
+  "uid" : "e399a94b53801a05",
+  "name" : "test_login_3[参数{'usr': '1', 'psw': '0'}]",
   "time" : {
-    "start" : 1576500575138,
-    "stop" : 1576500575499,
-    "duration" : 361
+    "start" : 1594027849409,
+    "stop" : 1594027849410,
+    "duration" : 1
   },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4e89775bb968a5a1",
-  "name" : "test_assem[参数{'open_id': '0', 'page': '1', 'pagesize': '0'}]",
-  "time" : {
-    "start" : 1576500574373,
-    "stop" : 1576500575123,
-    "duration" : 750
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7b587a30bdb824a4",
-  "name" : "test_sample[参数{'open_id': '0'}]",
-  "time" : {
-    "start" : 1576500576431,
-    "stop" : 1576500576528,
-    "duration" : 97
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f0cbbe40b67aa0e0",
-  "name" : "test_assem[参数{'open_id': '0', 'pagesize': '0'}]",
-  "time" : {
-    "start" : 1576500575864,
-    "stop" : 1576500575991,
-    "duration" : 127
-  },
-  "status" : "failed",
+  "status" : "broken",
   "severity" : "normal"
 } ]

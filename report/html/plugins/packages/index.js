@@ -1,5 +1,13 @@
 'use strict';
 
+allure.api.addTranslation('zh', {
+    tab: {
+        packages: {
+            name: '包'
+        }
+    }
+});
+
 allure.api.addTranslation('en', {
     tab: {
         packages: {
@@ -12,14 +20,6 @@ allure.api.addTranslation('ru', {
     tab: {
         packages: {
             name: 'Пакеты'
-        }
-    }
-});
-
-allure.api.addTranslation('zh', {
-    tab: {
-        packages: {
-            name: '包'
         }
     }
 });

@@ -11,7 +11,7 @@ from bin.unit import checkResult, apiSend
 from bin.unit.readResultRelevance import get_relevance
 
 
-def api_send_check(case, project_dict, relevance, param, _path):
+def api_send_check(case_dict, _path):
 	"""
 	接口请求并校验结果
 	:param case: 单条用例
@@ -21,14 +21,13 @@ def api_send_check(case, project_dict, relevance, param, _path):
 	:param _path: case目录
 	:return:
 	"""
-	code, data = apiSend.send_request(case, project_dict["test_info"].get("host"),
-	                                  project_dict["test_info"].get("address"), param, _path, relevance)
-	if isinstance(case["check"], list):
-		for i in case["check"]:
-			checkResult.check_result(case["test_name"], i, code, data, _path, relevance)
-	elif "commonData" in project_dict:
-		pass
-	else:
-		checkResult.check_result(case["test_name"], case["check"], code, data, _path, relevance)
-
-	get_relevance(data, case["relevance"], rel)
+	code, data = apiSend.send_request(case_dict, _path)
+	#if isinstance(case["check"], list):
+	#	for i in case["check"]:
+	#		checkResult.check_result(case["test_name"], i, code, data, _path, relevance)
+	#elif "commonData" in project_dict:
+	#	pass
+	#else:
+	#	checkResult.check_result(case["test_name"], case["check"], code, data, _path, relevance)
+	checkResult.check_result(case_dict, code, data, _path)
+	#get_relevance(data, case["relevance"], rel)

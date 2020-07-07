@@ -1,0 +1,25 @@
+id: '1'
+name: login
+num: '1'
+title: "\u767B\u5F55\u6A21\u5757"
+case: "\u767B\u5F55\u6210\u529F"
+description: "\u6B63\u786E\u7528\u6237\u540D\u548C\u5BC6\u7801"
+before: ''
+params:
+  usr: '1'
+  psw: '1'
+url: https://ms.shijiebang.com/assem/search/
+file: ''
+method: post
+header:
+  Host: ms.shijiebang.com
+  Authorization: ' bearer MC4uLi4uLi0xNTkxOTMxNzYzNzQzLTE1OTQ1MjM3NjM3NDMtMDA4LTQtM2U1NDA3YWNmYjY0ODFlZWEzZmZkZmUwZDE0ZmJjNDk5OWMwNTIxMA'
+  Cookie: nsid=wKgGFl54MSVkyk8SAw9kAg==;SERVER_ID=cebfcf3a-6b8d8f77
+check: status_msg
+expect:
+  code: '200'
+  msg: success
+results: ''
+testResult: ''
+version: ''
+date: ''
